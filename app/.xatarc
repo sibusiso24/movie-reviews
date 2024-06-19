@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Sibusiso-Pontshi-s-workspace-qbvhej.us-east-1.xata.sh/db/movie_reviews",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

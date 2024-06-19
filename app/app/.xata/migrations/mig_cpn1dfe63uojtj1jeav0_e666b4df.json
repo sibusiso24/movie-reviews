@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpn1dfe63uojtj1jeav0",
+  "parentID": "mig_cpn1ct6hon9ui32hjic0",
+  "checksum": "1:e666b4dfdfadf966f3971eb06b29420f9a7dc6036db962d778f95df9b4cd55ed",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "rating",
+          "type": "float"
+        },
+        "table": "tag"
+      }
+    }
+  ]
+}

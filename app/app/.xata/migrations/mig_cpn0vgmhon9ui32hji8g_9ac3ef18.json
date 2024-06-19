@@ -1,0 +1,76 @@
+{
+  "id": "mig_cpn0vgmhon9ui32hji8g",
+  "checksum": "1:9ac3ef1883659d77b243b6ad0362eae899ae7cd9b15302756ebcd8acce265fdc",
+  "operations": [
+    {
+      "addTable": {
+        "table": "tag"
+      }
+    },
+    {
+      "addTable": {
+        "table": "image"
+      }
+    },
+    {
+      "addTable": {
+        "table": "tag-to-image"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "gallery"
+        },
+        "table": "tag"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Image"
+        },
+        "table": "image"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "image",
+          "type": "file"
+        },
+        "table": "image"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "image",
+          "type": "link",
+          "link": {
+            "table": "image"
+          }
+        },
+        "table": "tag-to-image"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "tag",
+          "type": "link",
+          "link": {
+            "table": "tag"
+          }
+        },
+        "table": "tag-to-image"
+      }
+    }
+  ]
+}

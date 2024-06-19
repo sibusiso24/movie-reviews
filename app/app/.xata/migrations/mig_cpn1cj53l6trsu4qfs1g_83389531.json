@@ -1,0 +1,16 @@
+{
+  "id": "mig_cpn1cj53l6trsu4qfs1g",
+  "parentID": "mig_cpn19ql3l6trsu4qfs0g",
+  "checksum": "1:833895319f3a7b1a5dfe06a60c2969c521292a925199ec5cdc468d0820aa3a74",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string"
+        },
+        "table": "tag"
+      }
+    }
+  ]
+}
